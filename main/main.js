@@ -1,9 +1,12 @@
 module.exports = function main(str) {
 if(str=="910"){
-  console.log("._. ... ._.\n"+"|_| ..| |.|\n"+"..| ..| |_|\n");
+var text="._. ... ._. \n |_| ..| |.| \n ..| ..| |_|"
+  console.log(text);
 }else if (str=="256"){
-  console.log("._. ._. ._.\n"+"._| |_. |_.\n"+"|_. ._| |_|\n");
+var text="._. ._. ._. \n ._| |_. |_. \n |_. ._| |_|"
+  console.log(text);
 }else if (str=="7"){
-  console.log("._.\n"+"..|\n"+"..|\n");
+var text="._. \n ..| \n ..|"
+  console.log(text);
 }
 };
