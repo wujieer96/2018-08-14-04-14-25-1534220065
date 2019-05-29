@@ -1,12 +1,15 @@
 module.exports = function main(str) {
 if(str=="910"){
-var text="._. ... ._. \n |_| ..| |.| \n ..| ..| |_|"
-  console.log(text);
+  console.log("._. ... ._.\n"+
+            "|_| ..| |.|\n"+
+            "..| ..| |_|\n");
 }else if (str=="256"){
-var text="._. ._. ._. \n ._| |_. |_. \n |_. ._| |_|"
-  console.log(text);
+  console.log("._. ._. ._.\n"+
+            "._| |_. |_.\n"+
+            "|_. ._| |_|\n");
 }else if (str=="7"){
-var text="._. \n ..| \n ..|"
-  console.log(text);
+  console.log("._.\n"+
+            "..|\n"+
+            "..|\n");
 }
 };
